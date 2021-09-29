@@ -1,0 +1,22 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "proshop MERN application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajneesh-9088/proshop.git"
+  },
+  "author": "Rajneesh Kumar Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rajneesh-9088/proshop/issues"
+  },
+  "homepage": "https://github.com/Rajneesh-9088/proshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
