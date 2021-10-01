@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "proshop MERN application",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/Rajneesh-9088/proshop#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
   },
   "devDependencies": {
     "concurrently": "^6.2.2",
