@@ -33,11 +33,11 @@ const ProductListScreen = ({ history, match }) => {
   const createProductHandler = (product) => {};
 
   const deleteHandler = (id) => {
-    // console.log("delete")
-    // if (window.confirm("Are you sure")) {
-      
-    // }
-    dispatch(deleteProduct(id));
+    console.log("delete")
+    if (window.confirm("Are you sure")) {
+      dispatch(deleteProduct(id));
+    }
+    
   };
 
   return (
